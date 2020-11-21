@@ -13,7 +13,7 @@
         border: 0;
     }
 
-    ul.nav {
+    ul.nav{
         position: absolute;
         margin-left: 0px;
         padding-left: 0px;
@@ -24,7 +24,7 @@
         position: sticky;
         display: block;
         width: 10em;
-        padding: 10px;
+        padding:10px;
         background-color: #ff4500;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -62,8 +62,7 @@
         background-color: #ffbc61;
     }
 
-    html {
-        height: 100%;
+    html{height: 100%;
     }
 
     body {
@@ -71,32 +70,16 @@
         text-align: center;
         height: 100%;
     }
-
-    .zagolovok span {
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        border-radius: 10px;
-        display: inline;
-        background-color: #ff4500;
-        padding: 10px;
-        color: #FFFFFF;
-        font-size: 35px;
-    }
-
     .bg {
-        background-image: url(https://install-game.com/wp-content/uploads/2015/06/ss_8be56703128dd44e1101d0e6e26e2df54861f7ae.1920x1080.jpg);
-        height: 100%;
+
+      height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-    .spoiler-title {
-        cursor: pointer;
+    .spoiler-title{cursor:pointer;
     }
-
-    .spoiler-body {
-        background-color: #ff4500;
+    .spoiler-body{background-color: #ff4500;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
         border-radius: 10px;
@@ -113,38 +96,29 @@
 <div class="bg">
     <h2 class="zagolovok"><span>BeamNG Drive</span></h2>
     <ul class="nav">
-        <li><a href='https://vk.com/cuhuu_lllapuk'><font size="+2"> Автор</font></a></li>
+        <li><a href = 'https://vk.com/cuhuu_lllapuk'><font size="+2"> Автор</font></a></li>
         <br>
-        <li><a href='https://www.beamng.com'><font size="+2">Официальный сайт</font></a></li>
+        <li><a href = 'https://www.beamng.com'><font size="+2">Официальный сайт</font></a></li>
         <br>
-        <li><a href='https://otzovik.com/reviews/beamng_drive-igra_dlya_pc/'><font size="+2">Отзывы об игре</font></a>
-        </li>
+        <li><a href = 'https://otzovik.com/reviews/beamng_drive-igra_dlya_pc/'><font size="+2">Отзывы об игре</font></a></li>
     </ul>
     <h6 class="zagolovok"><span>Самая реалистичная физика взаимодействия автомобилей!<br></span></h6>
     <h6 class="zagolovok"><span>Кнопки для скачивания игры и модификаций ниже<br></span></h6>
-    <button onclick="window.location.href = 'https://thelastgame.ru/download/BeamNG_drive_0.20.2.0.torrent';">
-        Скачать<img src="https://www.flaticon.com/svg/static/icons/svg/1536/1536475.svg" height="24px"
-                    style="vertical-align:middle"></button>
-    <button onclick="window.location.href = 'https://www.beamng.com/resources/';">&#160;&#160;&#160;Моды<img
-            src="https://www.flaticon.com/svg/static/icons/svg/1536/1536475.svg" height="24px"
-            style="vertical-align:middle"></button>
+    <button onclick="window.location.href = 'https://thelastgame.ru/download/BeamNG_drive_0.20.2.0.torrent';">Скачать<img src="https://www.flaticon.com/svg/static/icons/svg/1536/1536475.svg" height="24px" style="vertical-align:middle"></button>
+<button onclick="window.location.href = 'https://www.beamng.com/resources/';">&#160;&#160;&#160;Моды<img src="https://www.flaticon.com/svg/static/icons/svg/1536/1536475.svg" height="24px" style="vertical-align:middle"> </button>
     <br>
 
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.spoiler-body').hide();
-            $('.spoiler-title').click(function () {
-                $(this).next().toggle()
-            });
-        });
-    </script>
+    $(document).ready(function(){
+        $('.spoiler-body').hide();
+        $('.spoiler-title').click(function(){
+            $(this).next().toggle()});
+    });
+</script>
     <button class="spoiler-title">Показать описание игры</button>
     <div class="spoiler-body" style="display: none;">
-        BeamNG.drive — компьютерная игра в жанре автосимулятор, которая разрабатывается и издаётся компанией BeamNG для
-        платформы Windows.<br>
-        Использует уникальную физику мягких тел. Является идейным продолжением предыдущего проекта разработчиков — Rigs
-        of Rods.
-    </div>
+        BeamNG.drive — компьютерная игра в жанре автосимулятор, которая разрабатывается и издаётся компанией BeamNG для платформы Windows.<br>
+        Использует уникальную физику мягких тел. Является идейным продолжением предыдущего проекта разработчиков — Rigs of Rods.</div>
 </div>
 </body>
 </html>
