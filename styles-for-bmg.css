@@ -1,0 +1,101 @@
+ html, body, h2, h5, canvas {
+     margin: 0;
+     padding: 0;
+     border: 0;
+ }
+
+ul.nav {
+    position: absolute;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.nav a {
+    position: sticky;
+    display: block;
+    width: 10em;
+    padding: 10px;
+    background-color: #ff4500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+button {
+    background-color: #ff4500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+button:hover {
+    background-color: #ffbc61;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: revert;
+    text-align: center;
+    height: 100%;
+}
+
+.zagolovok span {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline;
+    background-color: #ff4500;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.bg {
+    background-image: url(https://install-game.com/wp-content/uploads/2015/06/ss_8be56703128dd44e1101d0e6e26e2df54861f7ae.1920x1080.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spoiler-title {
+    cursor: pointer;
+}
+
+.spoiler-body {
+    background-color: #ff4500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    font-size: 20px;
+    margin: 4px 2px;
+}
