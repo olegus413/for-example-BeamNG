@@ -1,0 +1,58 @@
+html, body, canvas {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.otziv {
+    float: top;
+    width: 50%;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px auto;
+}
+
+.otziv p {
+    margin-left: 100px;
+}
+
+.leviy {
+    left: 0px;
+    position: absolute;
+    width: 320px;
+    height: 568px;
+}
+
+.praviy {
+    right: 0px;
+    position: absolute;
+    width: 320px;
+    height: 568px;
+}
+
+.otziv img {
+    position: absolute;
+    max-height: 10%;
+    max-width: 10%;
+}
+
+.verh {
+    transform: translate(-50%, 0px);
+    left: 50%;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.otziv span {
+    font-size: 18px;
+    margin-right: 25px;
+}
+

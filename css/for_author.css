@@ -1,0 +1,49 @@
+html, body, h2, h5, canvas {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#gall {
+    position: relative;
+    padding-top: 50%;
+    -moz-user-select: none;
+    user-select: none;
+}
+#gall img {
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    max-width: 24.5%;
+    max-height: 49.5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#gall img:nth-child(4n-2) {left: 30%;}
+#gall img:nth-child(4n-1) {left: 52%;}
+
+.info {
+    position: absolute;
+    top: 550px;
+    left: 78px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #2a2a2a;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.levo{
+position: absolute;
+    top: 590px;
+    left: 100px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+display: inline-block;
+background-color: #2a2a2a;
+padding: 10px;
+color: #FFFFFF;
+font-size: 30px;}
+
