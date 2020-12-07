@@ -4,11 +4,19 @@ html, body, canvas {
     border: 0;
 }
 
+.bg {
+    background-image: url("./../css/fon.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .otziv {
+    color: white;
     float: top;
     width: 50%;
-    border: 2px solid #ccc;
-    background-color: #eee;
+    background-color: #ff4500;
     border-radius: 5px;
     padding: 16px;
     margin: 16px auto;
@@ -18,20 +26,6 @@ html, body, canvas {
     margin-left: 100px;
 }
 
-.leviy {
-    left: 0px;
-    position: absolute;
-    width: 320px;
-    height: 568px;
-}
-
-.praviy {
-    right: 0px;
-    position: absolute;
-    width: 320px;
-    height: 568px;
-}
-
 .otziv img {
     position: absolute;
     max-height: 10%;
@@ -39,6 +33,7 @@ html, body, canvas {
 }
 
 .verh {
+    color: white;
     transform: translate(-50%, 0px);
     left: 50%;
     position: relative;
@@ -46,7 +41,7 @@ html, body, canvas {
     -moz-border-radius: 10px;
     border-radius: 10px;
     display: inline-block;
-    background-color: #eee;
+    background-color: #ff4500;
     padding: 10px;
     font-size: 30px;
 }
@@ -56,3 +51,7 @@ html, body, canvas {
     margin-right: 25px;
 }
 
+@media screen and (max-device-width: 600px) {
+    .otziv span {font-size: 40px;}
+
+}

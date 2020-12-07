@@ -1,4 +1,4 @@
-html, body, h2, h5, canvas {
+html, body, h2, canvas {
     margin: 0;
     padding: 0;
     border: 0;
@@ -50,7 +50,7 @@ body {
 }
 
 .bg {
-    background-image: url(https://install-game.com/wp-content/uploads/2015/06/ss_8be56703128dd44e1101d0e6e26e2df54861f7ae.1920x1080.jpg);
+    background-image: url("./../css/fon2.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,6 +71,16 @@ body {
     text-align: center;
     text-decoration: none;
     display: none;
-    font-size: 20px;
+    font-size: 25px;
     margin: 4px 2px;
+}
+
+@media screen and (max-device-width: 600px)
+{
+
+    .zagolovok span {
+        font-size: 70px;
+    }
+    button{font-size: 35px}
+.spoiler-body{font-size: 35px}
 }
