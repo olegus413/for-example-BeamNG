@@ -1,41 +1,73 @@
 html, body, canvas {
     margin: 0;
-    padding: 0;
-    border: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    height: 100%;
+}
+
+button {
+    background-color: #ff4500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffbc61;
 }
 
 .bg {
     background-image: url("./../css/fon.jpg");
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .otziv {
+    position: revert;
     color: white;
-    float: top;
     width: 50%;
     background-color: #ff4500;
     border-radius: 5px;
     padding: 16px;
-    margin: 16px auto;
+    margin-top: 16px;
+    margin-left: 25%;
 }
 
 .otziv p {
     margin-left: 100px;
 }
 
+.otziv span {
+    font-size: 18px;
+}
+
 .otziv img {
-    position: absolute;
-    max-height: 10%;
     max-width: 10%;
+    max-height: 10%;
+    position: absolute;
+    margin: auto;
+    float: none;
+    display: block;
 }
 
 .verh {
     color: white;
-    transform: translate(-50%, 0px);
-    left: 50%;
     position: relative;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -46,12 +78,24 @@ html, body, canvas {
     font-size: 30px;
 }
 
-.otziv span {
-    font-size: 18px;
-    margin-right: 25px;
-}
-
 @media screen and (max-device-width: 600px) {
-    .otziv span {font-size: 40px;}
+    .otziv span {
+        font-size: 30px;
+    }
 
+    .otziv {
+        font-size: 35px;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .otziv img {
+        height: 90px;
+        width: 90px;
+    }
+
+    button {
+        font-size: 35px
+    }
 }
+

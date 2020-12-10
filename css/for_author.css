@@ -1,36 +1,51 @@
-html, body, h2, h5, canvas {
+html, body {
     margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 body {
-    font-size: revert;
     text-align: center;
-    height: 100%;
+    height: auto;
+}
+button {
+    background-color: #ff4500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-#gall {
+button:hover {
+    background-color: #ffbc61;
+}
+
+.bg {
+    background-image: url("./../css/fon1.jpg");
+    height: auto;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gall {
+    padding: 10px;
     position: relative;
-    padding-top: 50%;
-    -moz-user-select: none;
-    user-select: none;
+    max-width: 720px;
+    max-height: 720px;
+    border-radius: 1px;
+    background-color: #ff4500;
 }
-#gall img {
-    position: absolute;
-    top: 30%;
-    left: 12.5%;
-    max-width: 24.5%;
-    max-height: 49.5%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-#gall img:nth-child(4n-2) {left: 30%;}
-#gall img:nth-child(4n-1) {left: 52%;}
 
 .info {
-    position: absolute;
-
+    position: revert;
+    text-align: center;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -40,21 +55,17 @@ body {
     color: #FFFFFF;
     font-size: 30px;
 }
-.levo{
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-display: inline-block;
-background-color: #ff4500;
-padding: 10px;
-color: white;
-font-size: 30px;}
 
-.bg {
-    background-image: url("./../css/fon1.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@media screen and (max-device-width:600px) {
+    .gall{ display:flex;
+        flex-direction: column;
+    position: static;
+        max-height: none;
+    margin-left: 12%;}
+    .info {
+        font-size: 40px;
+    }
+    button {
+        font-size: 35px
+    }
 }
-
